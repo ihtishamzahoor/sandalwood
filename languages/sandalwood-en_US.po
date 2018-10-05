@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-09-18 20:58+0500\n"
+"PO-Revision-Date: 2018-09-18 21:02+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:41
+#, php-format
+msgid "%1$s Interaction on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:75
+msgid "Post"
+msgstr ""
+
+#: comments.php:77
+msgid "Leave Your Comment"
+msgstr ""
+
+#: functions.php:109
+msgid "on"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Header Image Text"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Change Header Image Text for the front page."
+msgstr ""
+
+#: inc/customizer.php:52
+msgid " All Set to Start your Online Journey?"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Header Image Title"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid " Welcome to Sandalwood "
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Header Image Subtitle"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:82 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:168
+msgid "Next Article"
+msgstr ""
+
+#: inc/template-tags.php:169
+msgid "Next post:"
+msgstr ""
+
+#: inc/template-tags.php:171
+msgid "Previous Article"
+msgstr ""
+
+#: inc/template-tags.php:172
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/content-none.php:26
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-search.php:41 template-parts/content-single.php:56
+#: template-parts/content.php:51
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
