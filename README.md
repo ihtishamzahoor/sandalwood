@@ -17,8 +17,8 @@ Sandalwood is a modern blog theme which provides an easy way for individuals and
 
 
 ## Sandalwood License
-Sandalwood WordPress Theme, Copyright 2018 Ihtisham Zahoor
-Sandalwood is distributed under the terms of the GNU GPL
+Sandalwood WordPress Theme, Copyright 2018 Ihtisham Zahoor.
+Sandalwood is distributed under the terms of the GNU GPL.
 
 ## Credits
 Sandalwood is based on following third-party resources:
