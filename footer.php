@@ -25,7 +25,7 @@
                     <?php
                     /* translators: 1: Theme author. */
                     if ( '' == get_theme_mod('site_info') ) {
-                        echo esc_html( '&copy;' . date("Y") . ' Powered by WordPress');
+                        echo esc_html( '&copy;' . date("Y") . '. All rights reserved.');
                     } else {
                         $site_info = get_theme_mod('site_info');                        
                         echo esc_html( $site_info );

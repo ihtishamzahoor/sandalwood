@@ -109,7 +109,7 @@ function sandalwood_customize_register($wp_customize)
     // Change Footer Text.
     $wp_customize->add_setting('site_info',
         array(
-            'default' => __('&copy;' . date("Y") . ' Powered by WordPress', 'sandalwood'),
+            'default' => __('All rights reserved.', 'sandalwood'),
             'type' => 'theme_mod',
             'sanitize_callback' => 'sanitize_text_field',
             'transport' => 'postMessage',
