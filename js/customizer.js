@@ -59,5 +59,12 @@
 			$( 'header.header-image-header h3.header-image-subtitle' ).text( to );
 		} );
 	} );
+	
+        // Footer Title.
+	wp.customize( 'site_info', function( value ) {
+		value.bind( function( to ) {
+			$( 'footer.site-footer div.site-info' ).text( to );
+		} );
+	} );
 	        
 } )( jQuery );

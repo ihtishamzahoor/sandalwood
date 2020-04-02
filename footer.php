@@ -24,8 +24,13 @@
             <div class="site-info">
                     <?php
                     /* translators: 1: Theme author. */
-                    printf( esc_html__( 'Made with %1$s by %2$s for WordPress.org', 'sandalwood' ), '<span class="heart">&hearts;</span>', '<a href="http://www.github.com/ihtishamzahoor" target="_blank" rel="designer">Ihtisham Zahoor</a>' );
-                        ?>
+                    if ( '' == get_theme_mod('site_info') ) {
+                        echo esc_html( '&copy;' . date("Y") . ' Powered by WordPress');
+                    } else {
+                        $site_info = get_theme_mod('site_info');                        
+                        echo esc_html( $site_info );
+                    }
+                    ?>
             </div><!-- .site-info -->
 		                    
 	</footer><!-- #colophon -->
