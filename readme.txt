@@ -87,13 +87,13 @@ Sandalwood is based on following third-party resources:
 
 = Screenshot Images =
 
-* Screenshot Image, Copyright Pixabay  
+* Screenshot Image, Copyright Stocksnap  
   License: CC0 1.0 Universal (CC0 1.0)
-  Source: https://pixabay.com/en/stream-rapids-rumania-transylvania-967624/
+  Source: https://stocksnap.io/photo/autumn-forest-L3G8OQESTP
 
-* Screenshot Image, Copyright Pixabay  
+* Screenshot Image, Copyright Stocksnap  
   License: CC0 1.0 Universal (CC0 1.0) 
-  Source: https://pixabay.com/en/bled-island-slovenia-mountains-1899264/
+  Source: https://stocksnap.io/photo/logcabin-hill-6HPVTKIYMP
 
 
 = Resources =
