@@ -3,7 +3,7 @@
 Tags: blog, two-columns, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, sticky-post, theme-options, rtl-language-support, translation-ready
 
 Requires at least: 5.0
-Tested up to: 5.4
+Tested up to: 5.5.3
 
 
 == Description ==
@@ -34,6 +34,11 @@ Does this theme support any plugins?
 Sandalwood includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 
+1.0.7 - November 08 2020 
+=
+* Compatibility check
 
 = 
 1.0.6 - April 02 2020 
