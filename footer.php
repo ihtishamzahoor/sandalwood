@@ -25,9 +25,11 @@
         function custom_menu_fallback() {
           ?>
         <ul>
-            <li>
-                <a href="/wp-admin/nav-menus.php">Add Footer Menu</a>
-            </li>
+            <?php
+            echo '<li class="nav-item active"><a class="nav-link" href="' . esc_url( admin_url( 'nav-menus.php' ) ) . '">';
+			esc_html_e( 'Add a footer menu', 'sandalwood' );
+			echo '</a></li>';
+            ?>
         </ul>
           <?php
         }
@@ -37,10 +39,11 @@
         <?php
                     /* translators: 1: Theme author. */
                     if ( '' == get_theme_mod('site_info') ) {
-                        esc_html_e( '&copy;' . date("Y") . '. All rights reserved.');
+                        echo '&copy;' . date("Y") . '. ';
+                        esc_html_e( 'All rights reserved.', 'sandalwood');
                     } else {
                         $site_info = get_theme_mod('site_info');                        
-                        esc_html_e( $site_info );
+                        echo esc_html( $site_info );
                     }
                     ?>
     </div><!-- .site-info -->
